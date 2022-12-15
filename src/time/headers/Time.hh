@@ -1,7 +1,7 @@
 #ifndef TIME_HH
 #define TIME_HH
 
-namespace timelib {
+namespace preclib { namespace time {
 
 enum TimeUnit {
     HOURS =        3600000000,
@@ -11,6 +11,6 @@ enum TimeUnit {
     MICROSECONDS = 1,
 };
 
-}
+}}
 
 #endif // TIME_HH

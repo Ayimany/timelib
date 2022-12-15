@@ -1,4 +1,9 @@
 makefile
 
+.ccls-cache/
+src/tests/
+
 *.out
+*.o
+*.ccls
 
